@@ -1,0 +1,168 @@
+body	{
+	padding:0;
+	margin:0;
+	-webkit-text-rendering: optimizelegibility;
+	-webkit-font-smoothing: antialiased;
+	overflow:auto;
+	background:lightgray;
+}
+
+#header	{
+	height:80px;
+	width:100%;
+	margin: 0 auto;
+	background:linear-gradient(yellow,#fb3);
+	color:black;
+	font-size:36px;
+	text-align:center;
+	padding:0;
+	line-height:80px;
+	font-family: Cambria, Arial, serif;
+	font-weight:bold;
+	position: fixed;
+	top:0;
+	z-index: 1;
+	box-shadow: 0px 1px 10px black;
+}
+
+#header #logo img	{
+	height:60px;
+	width:60px;
+	float: left;
+	position: relative;
+	padding:0;
+	margin: 0 auto;
+	left: 20px;
+	top: 10px;
+}
+
+#content	{
+	height: auto;
+	width: 920px;
+	margin: 0 auto;
+	position: relative;
+	text-align: center;
+	padding: 50px 0;
+	box-shadow: 2px 2px 10px black;
+	z-index:0;
+	display: block;
+	padding-top:100px;
+	background:white;
+}
+
+#content input	{
+	text-align:left;
+}
+
+#body	{
+	margin:50px;
+	display:inline-block;
+}
+
+#body li	{
+	list-style:none;
+	display:block;
+	margin:0 auto;
+}
+
+.btn	{
+	display:block;
+	background: linear-gradient(yellow,orange);
+	color: black;
+	margin: 40px auto;
+	padding: 10px;
+	text-align:center;
+	border: 1px solid black;
+	font-size:18px;
+	font-family:Cambria, Arial, Serif;
+	color:black;
+	width:150px;
+}
+
+.btn:link, .btn:visited	{
+	text-decoration:none;
+	color:black;
+}
+
+.btn:hover	{
+	text-decoration:underline;
+	font-weight:bold;
+	background: linear-gradient(orange,yellow);
+	box-shadow:0px 1px 5px black;
+}
+
+.btn:active	{
+	position:relative;
+	top:1px;
+}
+
+#footer	{
+	height:15px;
+	width:100%;
+	margin: 0 auto;
+	background:#e3e3e3;
+	color:black;
+	font-size:12px;
+	text-align:center;
+	padding:5px 0;
+	line-height:15px;
+	font-family: Cambria, Arial, serif;
+	font-weight:bold;
+	position: fixed;
+	bottom:0;
+	box-shadow: 0px -1px 5px black;
+}
+
+.formHeader	{
+	display:block;
+	font-size:22px;
+	font-weight:bold;
+	line-height:50px;
+}
+
+input	{
+	color: black;
+	font-family: Cambria, Arial, serif;
+	background: #e3e3e3;
+	padding: 5px 0px;
+	margin:10px;
+	width: 200px;
+}
+
+.formInput	{
+	display: block;
+	text-align:center;
+	margin: 0 auto;
+	padding: 0;
+}
+
+.btn2	{
+	display: inline-block;
+	background: linear-gradient(yellow,orange);
+	color: black;
+	margin: 40px auto;
+	padding: 10px;
+	text-align:center;
+	border: 1px solid black;
+	font-size:18px;
+	font-family:Cambria, Arial, Serif;
+	color:black;
+	width:auto;
+}
+
+.btn2:link, .btn2:visited	{
+	text-decoration:none;
+	color:black;
+}
+
+.btn2:hover	{
+	text-decoration:underline;
+	font-weight:bold;
+	background: linear-gradient(orange,yellow);
+	box-shadow:0px 1px 5px black;
+}
+
+.btn2:active	{
+	position:relative;
+	top:1px;
+}
